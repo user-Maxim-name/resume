@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Резюме</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+html{
+    background-color:rgb(253,248,171) ;
+}
+body{
+max-width: 720px;
+height: auto;
+margin: 20px auto;
+background-color:  rgb(255,255,255);
+border:2px solid black;
+ 
+}
+ol,ul{
+margin-left: 30px;
+margin-top: 10px;
+} 
+li{
+
+    margin-left: 50px; 
+    font-size: 1.3em; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+font-size: 1.2em;
+margin-left: 30px;
+margin-top: 10px;
+
+}
+img{
+    border:2px solid black;
+    float:right;
+    margin-top: -50px;
+    margin-right: 20px;
+ 
+}
+h2,h3{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+h1{ 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    background: -webkit-linear-gradient(315deg,#2193b0 25%,#6dd5ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+ h2{
+    color:red;
+    font-size: 2em;
+ 
+} 
+h3{
+    font-size: 1.5em;  
+
+}
+.defense_author{
+color:#313655;
+text-align: center;
+padding-bottom: 10px;
+}
+.personal_data  li:nth-child(1){
+    list-style: none;
+   background: url(images/phone.png) no-repeat left;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    margin-left: 30px; 
+}
+.personal_data li:nth-child(2){
+    list-style: none;
+   background: url(images/email.png) no-repeat left;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    margin-left: 30px; 
+}
+span{
+    font-size:17px;
+    
+}
+ 
+.include_list li{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.menu {
+    box-sizing: border-box;
+    text-align:center;
+     
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+.menu li{
+    display: inline-block;
+    padding: 0;
+    margin-left: 15px;
+    height: 80%;
+}
+.menu li a:hover{
+    color:white; 
+  
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: Helvetica, Arial, sans-serif;;
+    font-size: 1.1em;
+}
+ 
+.about_contact{
+    font-size: 0.8em; 
+
+}
+ 
+ 
+</style>
+
+</head>
+<body>
+    <h1>Резюме</h1>
+<nav>
+<ul class="menu">
+<li><a href="#">Головна</a></li>
+<li class="portfolio" ><a href="portfolio.html" >Портфоліо</a>
+ 
+
+</li>
+<li><a href="#" id="contact">Контакти</a></li>
+<li><a href="#language_know">Знання мов</a></li>
+</ul>
+</nav>
+
+
+
+    <h2 class="about_me">Пітула Максим</h2>
+<h3>Про себе</h3>
+ <img src="images/jord.jpg" alt="photo">
+<p>Я Пітула Максим Миронович студент групи ПІ-1901 Фахового коледжу електроних приладів.<br>
+Дата народження: <time datetime="2004-04-04"><span>2004.04.04.</span></time><br>
+Рівень володіння комп'ютером: досвідчений.
+ </p>
+ 
+
+ <h3>Освіта</h3>
+ <ul>
+   <li> У 2019 році закінчив загальноосвітню школу №23 і поступив у ФКЕП.</li>
+   <li>  З 2010 по 2019 рік навчався у  загальноосвітніх школах:
+    <ul class="include_list">
+<li>2010-2015 загальноосвітня школа №22</li>
+<li>2015-2019 загальноосвітня школа №23</li>
+    </ul>
+   </li>
+   <li> У 2008 році пройшов курси підвищеної підготовки.</li>
+</ul>
+ <br> <br>
+ <hr>
+<h3>Перелік відомих офісних програм та середовищ розробки:</h3>
+<ol>
+    <li>Microsoft Word - 80%</li>
+    <li>Microsoft Access - 70%</li>
+    <li>Microsoft Excel - 75%</li>
+    <li>Microsoft Visual Studio - 85%</li>
+    <li>Sublime Text - 40% </li>
+    <li>SQL - 67%
+        <ol>
+            <li>MySQL Workbench - 80%</li>
+            <li>DataGrip - 70%</li>
+            <li>pgAdmin - 50%</li>
+
+        </ol>
+
+    </li>
+    <li>Visio - 50%</li>
+</ol>
+<hr>
+<h3 id="language_know">Знання мов:</h3>
+<ol type="A" start="4">
+<li>Англійська</li>
+<li>Українська</li>
+<li>Німецька</li>
+
+</ol>
+<br>
+<hr>
+<h3>Контактні дані:</h3>
+<ul class="personal_data">
+    <li><b>Телефон:</b>&nbsp;<a href="tel:+380986473285" class="about_contact">+380986473285</a></li>
+    <li><b>Email:</b>&nbsp;<a href="mailto:maksym_911@ukr.net" class="about_contact">maksym_911@ukr.net</a></li>
+</ul>
+<br>
+ <hr color="black">
+<p class="defense_author">&copy; Pitula Max  2004-2021. Усі права захищено</p>
+  
+</body>
+</html>
