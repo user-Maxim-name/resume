@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fullwrap{
+width: 316px;
+height: 485px;
+border: 3px solid rgb(96,157,158);
+border-radius: 10px;
+margin: 0 auto;
+}
+.brand_calculator{
+height: 43px;
+background-color:rgb(96,157,158) ;
+color: white;
+text-align: right;
+margin-top: 12px;
+
+}
+input{
+    margin-top: 8px;
+    width: 290px;
+    margin: 8px auto;
+    margin-bottom: 4px;
+    border: 2px solid rgb(96,157,158);
+    border-radius: 6px;
+    height: 43px;
+    margin-left: 10px;
+    margin-right: 7px;
+    font-size: 24px;
+    color:rgb(96,157,158) ;
+    font-weight: 600;
+}
+.brand_name{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+     
+}
+.battery{
+    width:102px;
+    height:36px;
+    background-color:rgb(96,157,158) ;
+     float: right;
+     margin-bottom: 18px;
+     margin-top: 10px;
+     margin-right: 10px;
+    
+}
+.row{
+    clear: both;
+    margin-left: 19px;
+    margin-bottom: 11px;
+    text-align: center;
+     
+}
+.one{
+ 
+
+    
+}
+
+.button{
+width: 61px;
+height: 59px;
+border: 3px solid rgb(96,157,158);
+float: left;
+margin-right: 10px;
+border-radius: 12px;
+line-height: 55px;
+font-size: 22px;
+margin-bottom: 18px;
+color:  rgb(96,157,158) ;
+font-weight: 700;
+}
+.button:hover{
+background-color: rgb(71, 171, 189);
+color: white;
+transition: all 0.3s ease-in-out;
+}
+.button:active{
+background-color: rgb(227, 127, 1);
+}
