@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+}
+.wrap * {
+  width: 50px;
+  height: 50px;
+ 
+}
+.email_ico {
+  background-image: url(icon-sprites-29.jpg);
+  background-position-x: 555px;
+  background-position-y: 169px;
+  
+}
+.email_ico:hover {
+  background-position-y: 94px; 
+}
+.rosecolor {
+  background-image: url(icon-sprites-29.jpg);
+  background-position-x: 497px;
+  background-position-y: 168px;
+}
+.rosecolor:hover {
+  background-position-y: 94px;
+}
+
+.googlePlus_ico {
+  background-image: url(icon-sprites-29.jpg);
+  background-position-x: 439px;
+  background-position-y: 168px;
+}
+.googlePlus_ico:hover{
+    background-position-y: 94px;
+}
+.facebook_ico{
+    background-image: url(icon-sprites-29.jpg);
+  background-position-x: 381px;
+  background-position-y: 168px;
+}
+.facebook_ico:hover{
+    background-position-y: 94px;
+}
+.skype_ico{
+    background-image: url(icon-sprites-29.jpg);
+    background-position-x: 323px;
+    background-position-y: 169px;
+}
+.skype_ico:hover{
+    background-position-y: 94px;
+}
+.twitter_ico{
+    background: url(icon-sprites-29.jpg) 265px 169px;
+}
+.twitter_ico:hover{
+    background-position-y: 94px;
+}
+.linked_ico{
+    background: url(icon-sprites-29.jpg) 207px 169px; 
+}
+.linked_ico:hover{
+    background-position-y: 94px;
+}
+.github_ico{
+    background: url(icon-sprites-29.jpg) 150px 169px;    
+}
+.github_ico:hover{
+    background-position-y: 94px;
+}
+.basket_ico{
+    background: url(icon-sprites-29.jpg) 92px 169px;      
+}
+.basket_ico:hover{
+    background-position-y: 94px;
+}
