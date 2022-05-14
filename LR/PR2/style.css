@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "NewBaskervillel";
+    src: url("fonts/NewBaskervilleITCbyBT-Black.otf");
+ 
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(49, 40, 42);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrap{
+    width: 940px;
+    height: 460px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    position: relative;
+}
+.sale_dish{
+width: 330px;
+height: 100%;
+background:url(img/burger22.png);
+background-position-y: -40px;
+position: relative;
+}
+.about_sale_dish{
+    width: 338px;
+    height: 212px;
+    background-color: black;
+    position: absolute;
+    bottom: 25px;
+    right: 3px;
+    text-align: center;
+}
+ 
+.menu{
+    width: 611px;
+    height: 100%;
+   
+}
+.name_sale_dish{
+    color: white;
+    font-family: 'NewBaskervillel';
+    font-size: 42px;
+    padding-top: 25px;
+}
+.head_text{    
+    height: 100px;
+    display: block;
+    text-align: center;
+    padding-top: 44px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.dish{
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+    margin-left: 71px;
+    margin-bottom: 7px;
+    position: relative;
+    padding-bottom: 19px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.dish::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: silver;
+    position: absolute;
+    bottom: -5px;
+    transform: rotate(45deg);
+    left:100px ;
+}
+.name_dish{
+     font-weight: 400;
+    font-size: 20px;
+ 
+}
+
+.price_dish{
+    color: rgb(153, 153, 153);
+    font-family: 'Manrope', sans-serif;
+     font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 5px;
+    
+}
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+.price_sale{
+    color: rgb(253, 202, 25);
+  
+}
+ 
+.all_menu{
+     
+    position: absolute;
+    bottom: -65px;
+    right: 0;
+    width: 176px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    padding-top: 16px;
+}
