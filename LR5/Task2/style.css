@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+display: block;
+
+
+}
+
+
+.main-block{
+	 width: 960px;
+	height: 650px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	border: 1px solid;
+	background-color: rgb(129,204,199);
+}
+
+.world, .water, .wooden-ship{
+position: absolute;
+}
+.world{
+bottom:  0;
+z-index:1;
+}
+.water{
+	z-index: 2;
+	bottom: 0;
+ 
+}
+.wooden-ship{
+	
+	z-index: 1;
+	width: 20%;
+	bottom: 60px;
+	left: 40px;
+}
+.cloud{
+ position: relative;
+ width: 550px;
+left: 35%;
+top: 10px;
+}
