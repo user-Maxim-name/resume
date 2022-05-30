@@ -557,8 +557,18 @@ span.header_titles::after {
   width: 186px;
   max-height: 105px;
   background-image: url(img/recent_post_img2.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+.recent_post_events a:nth-child(3) div.container_events div:nth-child(1){
+  background-image: url(img/recent_post_img1.png);
+}
+ .recent_post_events a:nth-child(4) div.container_events div:nth-child(1) {
+   background-image: url(img/recent_post_img3.png);
+   background-size: 82% 100%;
+   
+ }
+
 .container_events div:nth-of-type(2) {
   font-size: 21px;
   padding-left: 3%;
